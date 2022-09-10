@@ -80,3 +80,11 @@
 
 
 }
+@media only screen and {max-width: 900px};
+.container{
+    grid-template-rows: 100px 80px auto 100px;
+
+.sidebar{
+        grid-column: 1 / -1;
+    }
+}
