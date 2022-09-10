@@ -3,6 +3,7 @@
     margin:0;  
     padding:0;
 }
+
 .container{
     display:grid;
     grid-template-columns:80px repeat(12 1fr) ;
@@ -62,6 +63,7 @@
     grid-column: 3 / -1;
     grid-template-columns: repeat(3 1fr);
     grid-template-rows: repeat(2 3fr);
+    row-gap: 10px;
 }
 .image{
     padding: 10px;
@@ -72,4 +74,9 @@
     background-color: black;
     grid-column: 1 / -1;
     color: blanchedalmond;
+    text-align: center;
+    height:100px;padding: 12px;
+
+
+
 }
